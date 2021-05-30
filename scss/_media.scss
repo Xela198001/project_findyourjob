@@ -1,0 +1,86 @@
+@media (min-width: 320px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 45px;
+    background-color: $color-grey-light;
+    z-index: 20;
+    flex-direction: row;
+    transform: translateY(-100%);
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .navbar-show {
+    transform: translateY(0);
+    // flex-direction: column;
+  }
+
+  .hero {
+    text-align: center;
+  }
+  .hero-img {
+    margin: 50px auto 0;
+  }
+
+  .section-offers .offer .offer-title {
+    margin-left: 0;
+  }
+
+  .section-offers .offer .offer-salary {
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .section-offers .offer .offer-more {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: $md) {
+  .section-offers .offer .offer-title {
+    margin: 0 0 0 20px;
+  }
+  .section-offers .offer .offer-salary {
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  .section-offers .offer .tags-group {
+    padding: 0 0 0 120px;
+  }
+}
+
+@media (min-width: $lg) {
+  .hero {
+    text-align: left;
+  }
+
+  .hero-img {
+    margin-top: 0;
+  }
+
+  .section-offers .offer .offer-salary {
+    margin: 0 0 0 5px;
+  }
+
+  .section-offers .offer .tags-group {
+    padding: 0 0 0 15px;
+  }
+}
+
+@media (min-width: $xl) {
+  .navbar {
+    position: relative;
+    display: flex;
+    transform: none;
+  }
+
+  .offer-salary {
+    margin: 0 62px 0 46px;
+  }
+}

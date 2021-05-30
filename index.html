@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FindYourJob - сайт проудаленную работу</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.min.css" />
+  <script src="js/burger.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="
+            row
+            align-items-center
+            justify-content-between
+            d-xl-none
+            menu-mobile
+          ">
+        <div class="col-6 d-flex flex-grow-1">
+          <a href="/" class="logo-link">
+            <img src="img/logo.svg" alt="logo: fideyourjob" class="logo-svg" />
+          </a>
+        </div>
+        <div class="col-6 d-flex">
+          <button id="burger-icon" class="d-flex d-xl-none">
+            <span class="line top"></span>
+            <span class="line center"></span>
+            <span class="line bottom"></span>
+          </button>
+        </div>
+      </div>
+      <div class="
+            row
+            justify-content-center
+            align-items-start align-items-xl-center align-content-start
+            flex-xl-row
+            navbar
+          ">
+        <div class="col-2 d-none d-xl-flex">
+          <a href="/" class="logo-link">
+            <img src="img/logo.svg" alt="logo: fideyourjob" class="logo-svg" />
+          </a>
+        </div>
+        <div class="
+              col-7
+              d-xl-flex
+              justify-content-center
+              offset-6 offset-xl-0
+              mt-5 mt-xl-0
+            ">
+          <nav class="nav">
+            <ul class="menu d-flex flex-column flex-xl-row">
+              <li class="menu-item mb-3 mb-xl-0">
+                <a href="#" class="menu-link p-2 mb-xl-0">Главная</a>
+              </li>
+              <li class="menu-item mb-3 mb-xl-0">
+                <a href="#" class="menu-link p-2 mb-xl-0">Вакансии</a>
+              </li>
+              <li class="menu-item mb-3 mb-xl-0">
+                <a href="#" class="menu-link p-2 mb-xl-0">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="
+              col-3 flex-column flex-xl-row
+              d-flex d-xl-flex
+              align-items-center
+              justify-content-end
+            ">
+          <a href="#" class="button button-link">Войти</a>
+          <a href="#" class="button button-primary">Регистрация</a>
+        </div>
+      </div>
+      <div class="hero row d-flex justify-content-between">
+        <div class="col-xxl-5 col-lg-7 col-md-9 mx-auto">
+          <h1 class="hero-title">Найдите удаленную работу вашей мечты</h1>
+          <p class="hero-text">
+            Создайте резюме или отправьте отклик на вакансию в компании с
+            мировым именем и работайте по свободному графику
+          </p>
+          <form action="#" method="get" class="hero-form">
+            <div class="hero-form input-group col-4 d-flex">
+              <input class="input-search" type="search" value="" id="input" placeholder="Начните поиск" />
+              <button class="button button-primary d-inline-block" type="button">
+                <i class="icon-search">
+                  <svg class="icon">
+                    <use xlink:href="img/icons.svg#search"></use>
+                  </svg>
+                </i>
+                <span class="d-none d-lg-inline-block">Искать вакансии</span>
+              </button>
+            </div>
+          </form>
+          <div class="tags-group">
+            <span class="tags-label">Например:</span><a href="#" class="tag">Front-end</a><a href="#"
+              class="tag">Back-end</a><a href="#" class="tag">Design</a>
+          </div>
+        </div>
+        <div class="col-xxl-6 offset-xxl-1 col-lg-5 hero-img"></div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Категории</h2>
+        <!-- /.section-title -->
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-xl-2">
+            <a href="#" class="card d-flex flex-column align-items-center">
+              <span class="card-img">
+                <svg class="icon">
+                  <use xlink:href="img/icons.svg#brush"></use>
+                </svg>
+              </span>
+              <!-- /.card img -->
+              <p class="card-text">Дизайн</p>
+              <!-- /.card-text -->
+            </a>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-sm-6 col-md-4 col-xl-2">
+            <a href="#" class="card d-flex flex-column align-items-center">
+              <span class="card-img">
+                <svg class="icon">
+                  <use xlink:href="img/icons.svg#browser"></use>
+                </svg>
+              </span>
+              <!-- /.card img -->
+              <p class="card-text">Разработка</p>
+              <!-- /.card-text -->
+            </a>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-sm-6 col-md-4 col-xl-2">
+            <a href="#" class="card d-flex flex-column align-items-center">
+              <span class="card-img">
+                <svg class="icon">
+                  <use xlink:href="img/icons.svg#edit"></use>
+                </svg>
+              </span>
+              <!-- /.card img -->
+              <p class="card-text">Копирайтинг</p>
+              <!-- /.card-text -->
+            </a>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-sm-6 col-md-4 col-xl-2">
+            <a href="#" class="card d-flex flex-column align-items-center">
+              <span class="card-img">
+                <svg class="icon">
+                  <use xlink:href="img/icons.svg#fingerprint"></use>
+                </svg>
+              </span>
+              <!-- /.card img -->
+              <p class="card-text">Беопасность</p>
+              <!-- /.card-text -->
+            </a>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-sm-6 col-md-4 col-xl-2">
+            <a href="#" class="card d-flex flex-column align-items-center">
+              <span class="card-img">
+                <svg class="icon">
+                  <use xlink:href="img/icons.svg#camera"></use>
+                </svg>
+              </span>
+              <!-- /.card img -->
+              <p class="card-text">Видео</p>
+              <!-- /.card-text -->
+            </a>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-sm-6 col-md-4 col-xl-2">
+            <a href="#" class="card d-flex flex-column align-items-center">
+              <span class="card-img">
+                <svg class="icon">
+                  <use xlink:href="img/icons.svg#school"></use>
+                </svg>
+              </span>
+              <!-- /.card img -->
+              <p class="card-text">Образование</p>
+              <!-- /.card-text -->
+            </a>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section -->
+    <section class="section section-offers">
+      <div class="container">
+        <h2 class="section-title">Свежие вакансии</h2>
+        <!-- /.section-title -->
+        <div class="offers-wrapper">
+          <div class="
+                offer
+                d-flex
+                flex-column flex-md-row flex-md-wrap flex-lg-nowrap flex-lg-row
+                align-items-center
+              ">
+            <div class="offer-avatar mb-4 mb-lg-0"></div>
+            <div class="offer-title flex-full col-5 col-lg-3 mb-4 mb-lg-0">
+              <h3 class="offer-heading">Front-end разработчик</h3>
+              <span class="offer-place">Технопарк, Казань</span>
+            </div>
+            <div class="offer-salary mb-4mb-lg-0">65 000 ₽</div>
+            <div class="tags-group mb-4 mb-lg-0">
+              <span class="tags-label">Требования:</span><a href="#" class="tag">ReactJs</a><a href="#"
+                class="tag">Git</a><a href="#" class="tag">Sass</a>
+            </div>
+            <a href="#" class="
+                  offer-more
+                  col-6 col-lg-2
+                  d-flex
+                  justify-content-center justify-content-lg-end
+                ">Подробнее →</a>
+          </div>
+          <div class="
+                offer
+                d-flex
+                flex-column flex-md-row flex-md-wrap flex-lg-nowrap flex-lg-row
+                align-items-center
+              ">
+            <div class="offer-avatar mb-4 mb-lg-0"></div>
+            <div class="offer-title flex-full col-5 col-lg-3 mb-4 mb-lg-0">
+              <h3 class="offer-heading">Front-end разработчик</h3>
+              <span class="offer-place">Технопарк, Казань</span>
+            </div>
+            <div class="offer-salary mb-4mb-lg-0">65 000 ₽</div>
+            <div class="tags-group mb-4 mb-lg-0">
+              <span class="tags-label">Требования:</span><a href="#" class="tag">ReactJs</a><a href="#"
+                class="tag">Git</a><a href="#" class="tag">Sass</a>
+            </div>
+            <a href="#" class="
+                  offer-more
+                  col-6 col-lg-2
+                  d-flex
+                  justify-content-center justify-content-lg-end
+                ">Подробнее →</a>
+          </div>
+          <div class="
+                offer
+                d-flex
+                flex-column flex-md-row flex-md-wrap flex-lg-nowrap flex-lg-row
+                align-items-center
+              ">
+            <div class="offer-avatar mb-4 mb-lg-0"></div>
+            <div class="offer-title flex-full col-5 col-lg-3 mb-4 mb-lg-0">
+              <h3 class="offer-heading">Front-end разработчик</h3>
+              <span class="offer-place">Технопарк, Казань</span>
+            </div>
+            <div class="offer-salary mb-4mb-lg-0">65 000 ₽</div>
+            <div class="tags-group mb-4 mb-lg-0">
+              <span class="tags-label">Требования:</span><a href="#" class="tag">ReactJs</a><a href="#"
+                class="tag">Git</a><a href="#" class="tag">Sass</a>
+            </div>
+            <a href="#" class="
+                  offer-more
+                  col-6 col-lg-2
+                  d-flex
+                  justify-content-center justify-content-lg-end
+                ">Подробнее →</a>
+          </div>
+          <div class="
+                offer
+                d-flex
+                flex-column flex-md-row flex-md-wrap flex-lg-nowrap flex-lg-row
+                align-items-center
+              ">
+            <div class="offer-avatar mb-4 mb-lg-0"></div>
+            <div class="offer-title flex-full col-5 col-lg-3 mb-4 mb-lg-0">
+              <h3 class="offer-heading">Front-end разработчик</h3>
+              <span class="offer-place">Технопарк, Казань</span>
+            </div>
+            <div class="offer-salary mb-4mb-lg-0">65 000 ₽</div>
+            <div class="tags-group mb-4 mb-lg-0">
+              <span class="tags-label">Требования:</span><a href="#" class="tag">ReactJs</a><a href="#"
+                class="tag">Git</a><a href="#" class="tag">Sass</a>
+            </div>
+            <a href="#" class="
+                  offer-more
+                  col-6 col-lg-2
+                  d-flex
+                  justify-content-center justify-content-lg-end
+                ">Подробнее →</a>
+          </div>
+          <div class="
+                offer
+                d-flex
+                flex-column flex-md-row flex-md-wrap flex-lg-nowrap flex-lg-row
+                align-items-center
+              ">
+            <div class="offer-avatar mb-4 mb-lg-0"></div>
+            <div class="offer-title flex-full col-5 col-lg-3 mb-4 mb-lg-0">
+              <h3 class="offer-heading">Front-end разработчик</h3>
+              <span class="offer-place">Технопарк, Казань</span>
+            </div>
+            <div class="offer-salary mb-4mb-lg-0">65 000 ₽</div>
+            <div class="tags-group mb-4 mb-lg-0">
+              <span class="tags-label">Требования:</span><a href="#" class="tag">ReactJs</a><a href="#"
+                class="tag">Git</a><a href="#" class="tag">Sass</a>
+            </div>
+            <a href="#" class="
+                  offer-more
+                  col-6 col-lg-2
+                  d-flex
+                  justify-content-center justify-content-lg-end
+                ">Подробнее →</a>
+          </div>
+          <div class="
+                offer
+                d-flex
+                flex-column flex-md-row flex-md-wrap flex-lg-nowrap flex-lg-row
+                align-items-center
+              ">
+            <div class="offer-avatar mb-4 mb-lg-0"></div>
+            <div class="offer-title flex-full col-5 col-lg-3 mb-4 mb-lg-0">
+              <h3 class="offer-heading">Front-end разработчик</h3>
+              <span class="offer-place">Технопарк, Казань</span>
+            </div>
+            <div class="offer-salary mb-4mb-lg-0">65 000 ₽</div>
+            <div class="tags-group mb-4 mb-lg-0">
+              <span class="tags-label">Требования:</span><a href="#" class="tag">ReactJs</a><a href="#"
+                class="tag">Git</a><a href="#" class="tag">Sass</a>
+            </div>
+            <a href="#" class="
+                  offer-more
+                  col-6 col-lg-2
+                  d-flex
+                  justify-content-center justify-content-lg-end
+                ">Подробнее →</a>
+          </div>
+          <div class="
+                offer
+                d-flex
+                flex-column flex-md-row flex-md-wrap flex-lg-nowrap flex-lg-row
+                align-items-center
+              ">
+            <div class="offer-avatar mb-4 mb-lg-0"></div>
+            <div class="offer-title flex-full col-5 col-lg-3 mb-4 mb-lg-0">
+              <h3 class="offer-heading">Front-end разработчик</h3>
+              <span class="offer-place">Технопарк, Казань</span>
+            </div>
+            <div class="offer-salary mb-4mb-lg-0">65 000 ₽</div>
+            <div class="tags-group mb-4 mb-lg-0">
+              <span class="tags-label">Требования:</span><a href="#" class="tag">ReactJs</a><a href="#"
+                class="tag">Git</a><a href="#" class="tag">Sass</a>
+            </div>
+            <a href="#" class="
+                  offer-more
+                  col-6 col-lg-2
+                  d-flex
+                  justify-content-center justify-content-lg-end
+                ">Подробнее →</a>
+          </div>
+          <div class="
+                offer
+                d-flex
+                flex-column flex-md-row flex-md-wrap flex-lg-nowrap flex-lg-row
+                align-items-center
+              ">
+            <div class="offer-avatar mb-4 mb-lg-0"></div>
+            <div class="offer-title flex-full col-5 col-lg-3 mb-4 mb-lg-0">
+              <h3 class="offer-heading">Front-end разработчик</h3>
+              <span class="offer-place">Технопарк, Казань</span>
+            </div>
+            <div class="offer-salary mb-4mb-lg-0">65 000 ₽</div>
+            <div class="tags-group mb-4 mb-lg-0">
+              <span class="tags-label">Требования:</span><a href="#" class="tag">ReactJs</a><a href="#"
+                class="tag">Git</a><a href="#" class="tag">Sass</a>
+            </div>
+            <a href="#" class="
+                  offer-more
+                  col-6 col-lg-2
+                  d-flex
+                  justify-content-center justify-content-lg-end
+                ">Подробнее →</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <section class="section subscribe">
+      <div class="container d-flex align-items-center justify-content-center">
+        <div class="subscribe-wrapper">
+          <h2 class="section-title subscribe-title">
+            Подпишитесь на рассылку с новыми вакансиями
+          </h2>
+          <p class="subscribe-text">
+            Мы отправляем по одному письму в&nbsp;неделю с&nbsp;подходящими
+            вам вакансиями
+          </p>
+          <form action="#" method="get" class="subscribe-form">
+            <div class="subscribe-form input-group col-4 d-flex">
+              <input class="input-search" type="search" value="" id="input" placeholder="E-Mail" />
+              <button class="button button-primary button-subscribe" type="button">
+                <span class="icon-envelope"> </span>
+                <span class="d-none d-lg-inline-block">Подписаться</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- /.main -->
+  <footer class="footer">
+    <div class="container d-flex flex-wrap">
+      <div class="logo col-11 col-md-5 col-lg-2 offset-1">
+        <a href="/" class="logo-link"><img src="img/logo.svg" alt="logo: image" class="logo-img" /></a>
+        <p class="logo-text">
+          Сайт с вакансиями для тех, кто ищет удаленную работу<br />&copy;&nbsp;2020
+        </p>
+      </div>
+      <div class="contact col-11 col-md-5 col-lg-2 offset-1 mt-4 mt-md-0">
+        <h3 class="title w-100">Свяжитесь с нами</h3>
+        <a class="contact-link w-100" href="tel:88002020300" class="contact-phone">8 800 20 20 300</a>
+        <a class="contact-link w-100" href="mailto:info@findyourjob.net">info@findyourjob.net</a>
+      </div>
+      <div class="info col-11 col-md-5 col-lg-2 offset-1 mt-4 mt-lg-0">
+        <h3 class="title">Информация</h3>
+        <ul class="info-list">
+          <li class="info-item">
+            <a href="#" class="info-link">Обработка данных</a>
+          </li>
+          <li class="info-item">
+            <a href="#" class="info-link">Конфиденциальность</a>
+          </li>
+          <li class="info-item">
+            <a href="#" class="info-link">Публичная оферта</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav col-11 col-md-5 col-lg-2 offset-1 mt-4 mt-lg-0">
+        <h3 class="title w-100">Навигация по сайту</h3>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="#" class="info-link">Вакансии</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="info-link">Компании</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="info-link">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- /.footer footer -->
+  <script></script>
+</body>
+
+</html>
